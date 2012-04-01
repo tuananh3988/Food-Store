@@ -1125,8 +1125,7 @@ div.password-confirm {
 /* ---------------- Buttons    ---------------- */
 
 input.form-submit,
-a.button {
-  background: #fff url(../images/buttons.png) 0 0 repeat-x;
+a.button {  
   border: 1px solid #e4e4e4;
   border-bottom: 1px solid #b4b4b4;
   border-left-color: #d2d2d2;
@@ -2391,3 +2390,10 @@ body.node-type-product #content h1.title {
 .node-meo-vat .field-name-field-image {	float: left; margin-right: 20px;}
 .node-meo-vat .field-name-field-category .field-label, .node-meo-vat .field-name-field-category .field-items a {font-size: 12px !important; color: #000;}
 .node-meo-vat .field-name-field-category .field-items a {text-decoration: underline;}
+
+.form-item-panes-billing-billing-district label, .form-item-panes-delivery-delivery-district label {
+	float: left;
+	width: 15em;
+	padding: 5px 6px 6px;
+	text-align: right;
+}
